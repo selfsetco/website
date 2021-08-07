@@ -1,0 +1,20 @@
+.Logo {
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logo_title {
+  text-decoration: none;
+  margin: 0;
+  line-height: 1;
+  color: #000;
+}
+
+.Logo_title:hover {
+  cursor: pointer;
+  color: var(--primary)
+}
